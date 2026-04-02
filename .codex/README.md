@@ -10,7 +10,7 @@
 | 场景 | 操作 | 说明 |
 |:---:|------|------|
 | 🆕 | **首次使用** → 使用 `start` 技能 | 系统引导你选择路径，从零到工作流全搞定 |
-| 📋 | **每次开工** → 运行 `session_start.sh` | 自动加载 Sprint 上下文 + 最近 Git 活动 |
+| 📋 | **每次开工** → 运行 `bash .codex/scripts/session_start.sh` | 自动加载 Sprint 上下文 + 最近 Git 活动 |
 | 💡 | **想点子** → 使用 `brainstorm` 技能 | MDA 框架驱动的专业创意头脑风暴 |
 | 🔍 | **代码审查** → 使用 `code-review` 技能 | 按文件/子系统进行针对性审查 |
 | ✅ | **提交前** → 运行 `bash .codex/scripts/validate_commit.sh` | 检查硬编码值、TODO 格式、JSON 有效性 |

@@ -5,8 +5,30 @@
 
 ---
 
+## 🚀 30 秒速查 — 最常用操作
+
+| 场景 | 操作 | 说明 |
+|:---:|------|------|
+| 🆕 | **首次使用** → 使用 `start` 技能 | 系统引导你选择路径，从零到工作流全搞定 |
+| 📋 | **每次开工** → 运行 `session_start.sh` | 自动加载 Sprint 上下文 + 最近 Git 活动 |
+| 💡 | **想点子** → 使用 `brainstorm` 技能 | MDA 框架驱动的专业创意头脑风暴 |
+| 🔍 | **代码审查** → 使用 `code-review` 技能 | 按文件/子系统进行针对性审查 |
+| ✅ | **提交前** → 运行 `bash .codex/scripts/validate_commit.sh` | 检查硬编码值、TODO 格式、JSON 有效性 |
+| 📦 | **推送前** → 运行 `bash .codex/scripts/validate_push.sh` | 警告推送到受保护分支 |
+| 🏁 | **结束工作** → 运行 `bash .codex/scripts/wrap_session.sh` | 记录本次工作成果日志 |
+| 🎮 | **配置引擎** → 使用 `setup-engine` 技能 | 如 `setup-engine godot 4.6` |
+| 📊 | **查看状态** → `/status` | 查看当前会话和项目状态 |
+| 🛡️ | **一键预检** → 运行 `bash .codex/scripts/preflight.sh` | 一次跑完所有验证脚本 |
+| 👥 | **团队协作** → 使用 `team-*` 系列技能 | 如 `team-combat`、`team-ui`、`team-narrative` |
+| 📝 | **Sprint 计划** → 使用 `sprint-plan` 技能 | 创建和管理 Sprint |
+
+> **💡 提示**：在 Codex 中使用技能的方式是自然语言，例如：*"请使用 `brainstorm` 技能"* 或 *"帮我做一个 `code-review`"*
+
+---
+
 ## 目录
 
+- [🚀 30 秒速查](#-30-秒速查--最常用操作)
 - [这是什么](#这是什么)
 - [与 Claude Code 版本的关系](#与-claude-code-版本的关系)
 - [快速开始](#快速开始)
